@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+
 }
 
 .App-logo {
@@ -35,4 +35,79 @@
   to {
     transform: rotate(360deg);
   }
+}
+ 
+
+/* custom css */
+.container{
+  width: 70%;
+  margin-left: 15%;
+  
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.padd{
+  padding: 15px;
+}
+.search-field{
+  width: 90%;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 20px;
+ 
+  outline: none;
+  text-indent: 20px;
+  background-color: #252424;
+  color: white;
+}
+.movie{
+  padding: 5px;
+ 
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.poster{
+  margin-top: 25px;
+  height: 800px;
+  width: 33%;
+  
+  overflow: hidden;
+}
+.poster-detail{
+  width: 100%;
+}
+.details{
+  
+  width: 65%;
+  
+  ;
+}
+.input-group{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.btn{
+  width: 15%;
+  border-radius: 20px;
+  background-color: #1072ec;
+  color: white;
+  outline: none;
+  font-size: 18px;
+}
+.padd p{
+  font-size: 20px;
+}
+h1,h2,h3{
+  margin: 0px;
+}
+.ratings{
+  display: flex;
+}
+.ratings>div{
+  margin-right: 20px;
+}
+body{
+  background-color: #252424;
 }
